@@ -50,7 +50,7 @@ Learning From [FreeCodeCamp](https://youtu.be/zN8YNNHcaZc)
 >
 > - Structure of internet consist of Tons of Routers and other devices and this routers are distributed around the world in organised manner.
 
-## - Why there are so many of Routers?
+### - Why there are so many of Routers?
 
 > 1. To answer these lets say we have one gaint Router in middle of earth and all the LANs are connected to internet via these router.
 >
@@ -62,6 +62,6 @@ Learning From [FreeCodeCamp](https://youtu.be/zN8YNNHcaZc)
 >
 > 5. To Avoid All these we use So many Routers instead.
 
-## - What are Home-Routers?
+### - What are Home-Routers?
 
 > 1. Home Router is a combo of Switch and Router and can be only used when there is limited number of devices.
