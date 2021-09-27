@@ -39,3 +39,29 @@ Learning From [FreeCodeCamp](https://youtu.be/zN8YNNHcaZc)
 >   to the Internet.
 >
 > - When any device can send packet to internet that means that device can now communicate with Internet.
+
+## What does the internet Represent?
+
+> - Router is a device which can establish communication between Different LAN in different Places.
+>
+> - Connecting computer to Internet means connecting to another computer anywhere in world.
+>
+> - The Structure that connects all the LANs in the world is the Internet.
+>
+> - Structure of internet consist of Tons of Routers and other devices and this routers are distributed around the world in organised manner.
+
+## - Why there are so many of Routers?
+
+> 1. To answer these lets say we have one gaint Router in middle of earth and all the LANs are connected to internet via these router.
+>
+> 2. As all LANs are connected means all are in Same network.
+>
+> 3. Lets say if the gaint router brokes.This will create a Problem in Whole earth.\
+>
+> 4. And think of place which is farthest from these router will required a very long cable.\
+>
+> 5. To Avoid All these we use So many Routers instead.
+
+## - What are Home-Routers?
+
+> 1. Home Router is a combo of Switch and Router and can be only used when there is limited number of devices.
