@@ -80,4 +80,26 @@ Checkout [here](https://www.infrapedia.com/app)
 >
 > - Copper Cables aren't used because its data Transmission is slow comparatively and as the length of copper cables increases data Transmission error increases.
 >  so we use Fibre optic Cables to solve this.
- 
+
+### How Packet Moves over the Internet?
+
+> - Lets say we want to send a packet from LAN1 to LAN2 over the internet.
+>
+> - For this, Packet from LAN1 to go to the Switch and it will open up and learns the destination address and understands that it needs to send to the router.
+>
+> - When packet reaches router it will see the content and learns the Destination address and understands that it needs to send to the Internet.
+>
+> - Router sends Packet to the Key Router Present in Internet Structure.
+>
+> - As it reaches the Key router it Learns the Destination Address and choose Path According to the Information which is in Routing Table. (Called Forwading in Technical Terms.)
+>
+> - Every router has Special table called Routing Table.Which Helps router to choose appropriate path.
+>
+> - There is special processor inside router.These Processor creates routing table on basis of some complex Algorithm and output of Algorithm is stored in Routing Table.
+>
+> - So everytime it passes packet to different router it will learn destination address and choose path according to the Routing Table.
+>
+> - Note that Router always trys to send packet as fast as possible it doesn't choose the shortest path everytime.Other factors like Congestion Control(to avoid Traffic) are also taken care of 
+> by processor inside.
+>
+> - At the end it will reach to the Key Router of LAN2 from that it will pass to the LAN2 (device).
