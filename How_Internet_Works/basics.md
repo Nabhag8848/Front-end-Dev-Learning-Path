@@ -56,12 +56,28 @@ Learning From [FreeCodeCamp](https://youtu.be/zN8YNNHcaZc)
 >
 > 2. As all LANs are connected means all are in Same network.
 >
-> 3. Lets say if the gaint router brokes.This will create a Problem in Whole earth.\
+> 3. Lets say if the gaint router brokes.This will create a Problem in Whole earth.
 >
-> 4. And think of place which is farthest from these router will required a very long cable.\
+> 4. And think of place which is farthest from these router will required a very long cable.
 >
-> 5. To Avoid All these we use So many Routers instead.
+> 5. If Internet uses only one Router then,this will overload the router.
+>
+> 6. If All LAN's Are connected to one router it will create a Mess.To Minimise it we use Distributed Structure.
+>
+> 7. If any of Routers broke in distributed Structure, efficiency for data transmission gets less but it will solve the single point of Failure problem.
+>
+> 8. To Avoid All these we use So many Routers instead.
 
 ### - What are Home-Routers?
 
 > 1. Home Router is a combo of Switch and Router and can be only used when there is limited number of devices.
+
+### - How to Visualise Internet and how it Looks like in Real Life?
+
+Checkout [here](https://www.infrapedia.com/app)
+
+> - Colourful Lines you see are the Fibre Optic Cables which are placed under water deep down these allows us to communicate between two different continents.
+>
+> - Copper Cables aren't used because its data Transmission is slow comparatively and as the length of copper cables increases data Transmission error increases.
+>  so we use Fibre optic Cables to solve this.
+ 
