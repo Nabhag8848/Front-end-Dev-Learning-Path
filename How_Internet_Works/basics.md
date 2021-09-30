@@ -81,7 +81,7 @@ Checkout [here](https://www.infrapedia.com/app)
 > - Copper Cables aren't used because its data Transmission is slow comparatively and as the length of copper cables increases data Transmission error increases.
 >  so we use Fibre optic Cables to solve this.
 
-### How Packet Moves over the Internet?
+### - How Packet Moves over the Internet?
 
 > - Lets say we want to send a packet from LAN1 to LAN2 over the internet.
 >
