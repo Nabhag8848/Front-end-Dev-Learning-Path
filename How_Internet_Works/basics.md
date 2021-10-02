@@ -103,3 +103,30 @@ Checkout [here](https://www.infrapedia.com/app)
 > by processor inside.
 >
 > - At the end it will reach to the Key Router of LAN2 from that it will pass to the LAN2 (device).
+
+## Connecting to the Internet From a Computer's Perspective
+
+> - So lets say your computer right now is connected to home-router and there are no other device connected to it.
+>
+> - Means we are just using the Router feature of Home-router.
+>
+> - This Home-router Allows us to connect to internet.
+>
+> - So lets say you opened udemy.com and press enter and you got the udemy home-page but What are those Abstract things happening behind lets understand it.
+>
+> - So when you open/click-on any website computer Generates packet.This packet is send to the servers of udemy.com over the internet.
+>
+> - In other terms we are requesting the servers over the internet.
+>
+> - so when servers receive the request,as per the request, server sends the response in form of small pieces of packets and how fast that packet will reach depends on our internet speed.
+>
+> - Like in udemy.com when we click on video, server send small pieces of packets it doesn't send the entire video directly.This is called Streaming.
+>
+> - With the help of Streaming Technology if we want to watch an hour long video without download we can watch it at that moment.
+>
+> - Servers are powerful Computers which Fundamentally same as of normal Computer but it is much faster as it can respond to lot of devices at a same time.
+>
+> - Servers having same information (udemy servers) Actually are distributed around the world and due to this we solve the single point of failure and provide load balancing.
+>
+> - Thus, We communicate with that server which is best suitable for us as per our location.
+
