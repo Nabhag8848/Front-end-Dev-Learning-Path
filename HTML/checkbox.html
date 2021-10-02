@@ -1,0 +1,18 @@
+<!-- Forms commonly use checkboxes for questions that may have more than one answer.
+
+Each of your checkboxes can be nested within its own label element. 
+By wrapping an input element inside of a label element it will automatically associate 
+the checkbox input with the label element surrounding it.
+
+All related checkbox inputs should have the same name attribute.
+
+It is considered best practice to explicitly define the relationship between a checkbox input
+ and its corresponding label by setting the for attribute on the label element to match 
+ the id attribute of the associated input element. -->
+
+ <label for = "checkboxbt">
+     <input id = "checkboxbt" type = "checkbox" name = "Related">Twitter
+ </label>
+ <label for = "check">
+    <input id = "check"type = "checkbox" name = "Related" checked>Linkedin
+</label>
