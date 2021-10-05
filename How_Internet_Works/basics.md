@@ -130,3 +130,48 @@ Checkout [here](https://www.infrapedia.com/app)
 >
 > - Thus, We communicate with that server which is best suitable for us as per our location.
 
+## Wide Area Network (WAN)
+
+> - WAN is a network consisting of combination of Different LANs.
+>
+> - Lets understand this with Eg.Lets say we have a growing company and we opened up some offices at different parts of world and we want that all this offices should be on same network even if they are in far apart.
+>
+> - This is where WAN comes into play,by WAN we can create speical network for our requirements.
+>
+> - So lets say there are Two LANs and our boss wants that We need to create WAN so that both offices devices work as if they are on same environment.
+>
+> - But We discuss before that if we want devices in diffrent LAN's communicate with each other then we can use internet. Then why we need WAN?
+
+### - Why we need WAN?
+
+> - Communication of LANs over a internet and Special WAN is a Whole Different Thing.
+>
+> - Internet is Public Network and can be used by anyone, anywhere and anytime.This public network can have Security Related Problems in information Transferred 
+> Between different Location. Hackers are everywhere in this Public Network too.
+>
+> -- For Eg: Lets say you want to send one important file within the same office/LAN from one device to another then this process of sending file is secure operaion >    cause any outsider cannot access your network without your permission in general.
+>
+> -- But now lets say you want to send that important file to other office device over the internet.This isn't safe cause there is no gaurantee that anyone can't see
+>     your file or make changes to your file. Hackers are everywhere and there is high chances of this problem.so solution for this is to create the Special WAN for >    a company.
+>
+> - In general Setting up WAN is costly and not a easy task but fortuanately there are various methods to setting up a WAN.
+>
+> - WAN by using VPN is most popular and cost effective. 
+
+### - Setting up WAN using Virtual Private Network(VPN)
+
+> - People often use VPN to access restricted Websites because it ensures anonymity and it encrypts the data before sending the packet.
+>   Hence it gives us high Security in General.
+>
+> - While Creating WAN using VPN we take advantage of Features of VPN and Important Feature of VPN which we should know is Tunneling.
+>
+> - The Tunneling Feature of the VPN Provides us Privacy,anonymity and security by creating a special network connection over the public network.
+>
+> - Tunneling Technology Makes the packet acts as if it is going through a physical tunnel.
+>
+> - Tunneling just represent high security connection between two different LANs. 
+>
+> - When packet is send over the internet offcourse it will pass through many routers to reach its destination as learned before but Tunneling makes it impossible 
+> to interfere with this packet from outside hence security is maximum.
+
+### - Deeper Look at WAN using VPN
