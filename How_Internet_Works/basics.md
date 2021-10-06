@@ -175,3 +175,33 @@ Checkout [here](https://www.infrapedia.com/app)
 > to interfere with this packet from outside hence security is maximum.
 
 ### - Deeper Look at WAN using VPN
+
+> - So lets say we want to send file from one LAN to Other.When Packet reaches the Router of same LAN from where it send their will be some changes in file.but before
+> that we should note and know that Tunneling is set up between Routers of Two Different LANs and this is called Site to Site VPN.It is very popular while setting up 
+> WANs using VPN.
+>
+> - So lets use analogy for understanding this.so Say you want to send a letter from LAN1 to LAN2 for that letter will be carried by postman.
+>  but what if you don't put that letter in envelope than postman can read this right? if We put that letter in envelope chances of reading it are less but still >    their is no guarantee he can't cause he can open and read it.
+>
+> - In same way in real Scenario Packet are put inside the another packet but as got it from above their are still risk of Security.
+>
+> - Hence,Even though we have Increased the Security their is still risk.And this is where Encryption come into play.
+>
+> - Encryption is very important so what we do is First we encrypt the packet and then put it into another packet.Thus even if someone in between interferes they
+> won't understand the packet information.
+>
+> - We Encrypt the information in such a way that only the people working in same company will understand.
+>
+> - Thus,we can send the packet to two different LANs and we maximised the security of packet.
+>
+> - Tunneling is Special Encapsulation Method and the word Tunneling came because the packet is safe as if it moves from its physical/Private Tunnel.
+>
+> - So When the Packet Reaches at Router of Destination LAN first it eliminates the outer packet then it decrpyts the original packet and then it learns the >         destination and sends it to destination.
+>
+> -  There is no such 100% security.every system has vulnerability. but till now WAN networks using VPN are satisfactory in terms of budget as well as security.
+
+## End to end Encryption
+
+> - So the question is We use Internet daily we send mails,Purchase goods from E-commerce through credit card.Is it Insecure? answer is Yes and No.
+> End to end Encryption allows us to be safe from malicious. Only receiver can decrypt that packet.Thus it provides Security.
+> Eg: Whatsapp
