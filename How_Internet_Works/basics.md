@@ -149,10 +149,11 @@ Checkout [here](https://www.infrapedia.com/app)
 > - Internet is Public Network and can be used by anyone, anywhere and anytime.This public network can have Security Related Problems in information Transferred 
 > Between different Location. Hackers are everywhere in this Public Network too.
 >
-> -- For Eg: Lets say you want to send one important file within the same office/LAN from one device to another then this process of sending file is secure operaion >    cause any outsider cannot access your network without your permission in general.
+> -- For Eg: Lets say you want to send one important file within the same office/LAN from one device to another then this process of sending file is secure operaion 
+>    cause any outsider cannot access your network without your permission in general.
 >
 > -- But now lets say you want to send that important file to other office device over the internet.This isn't safe cause there is no gaurantee that anyone can't see
->     your file or make changes to your file. Hackers are everywhere and there is high chances of this problem.so solution for this is to create the Special WAN for >    a company.
+>     your file or make changes to your file. Hackers are everywhere and there is high chances of this problem.so solution for this is to create the Special WAN for a company.
 >
 > - In general Setting up WAN is costly and not a easy task but fortuanately there are various methods to setting up a WAN.
 >
@@ -181,7 +182,8 @@ Checkout [here](https://www.infrapedia.com/app)
 > WANs using VPN.
 >
 > - So lets use analogy for understanding this.so Say you want to send a letter from LAN1 to LAN2 for that letter will be carried by postman.
->  but what if you don't put that letter in envelope than postman can read this right? if We put that letter in envelope chances of reading it are less but still >    their is no guarantee he can't cause he can open and read it.
+>  but what if you don't put that letter in envelope than postman can read this right? if We put that letter in envelope chances of reading it are less but still 
+>  their is no guarantee he can't cause he can open and read it.
 >
 > - In same way in real Scenario Packet are put inside the another packet but as got it from above their are still risk of Security.
 >
@@ -196,7 +198,8 @@ Checkout [here](https://www.infrapedia.com/app)
 >
 > - Tunneling is Special Encapsulation Method and the word Tunneling came because the packet is safe as if it moves from its physical/Private Tunnel.
 >
-> - So When the Packet Reaches at Router of Destination LAN first it eliminates the outer packet then it decrpyts the original packet and then it learns the >         destination and sends it to destination.
+> - So When the Packet Reaches at Router of Destination LAN first it eliminates the outer packet then it decrpyts the original packet and 
+>  then it learns the destination and sends it to destination.
 >
 > -  There is no such 100% security.every system has vulnerability. but till now WAN networks using VPN are satisfactory in terms of budget as well as security.
 
@@ -204,4 +207,5 @@ Checkout [here](https://www.infrapedia.com/app)
 
 > - So the question is We use Internet daily we send mails,Purchase goods from E-commerce through credit card.Is it Insecure? answer is Yes and No.
 > End to end Encryption allows us to be safe from malicious. Only receiver can decrypt that packet.Thus it provides Security.
+>
 > Eg: Whatsapp
