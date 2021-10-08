@@ -30,7 +30,7 @@ Learning From [FreeCodeCamp](https://youtu.be/zN8YNNHcaZc)
 
 > - Switch Devices helps to communicate different devices but to enable this devices to connect with internet we need router.
 >
-> - The main task of router is to enable computers to connect with the Internet.
+> - The main task of router is to enable computers to connect with the Internet,connect different networks and location of these network doesn't matter.
 >
 > - In order to connect device with internet, we connect device and switch with cable, switch and router is connected through copper cable and lastly Router is
 >   connected with cable provided by Internet service provider.
@@ -79,7 +79,7 @@ Checkout [here](https://www.infrapedia.com/app)
 > - Colourful Lines you see are the Fibre Optic Cables which are placed under water deep down these allows us to communicate between two different continents.
 >
 > - Copper Cables aren't used because its data Transmission is slow comparatively and as the length of copper cables increases data Transmission error increases.
->  so we use Fibre optic Cables to solve this.
+>   so we use Fibre optic Cables to solve this.
 
 ### - How Packet Moves over the Internet?
 
@@ -99,8 +99,8 @@ Checkout [here](https://www.infrapedia.com/app)
 >
 > - So everytime it passes packet to different router it will learn destination address and choose path according to the Routing Table.
 >
-> - Note that Router always trys to send packet as fast as possible it doesn't choose the shortest path everytime.Other factors like Congestion Control(to avoid Traffic) are also taken care of 
-> by processor inside.
+> - Note that Router always trys to send packet as fast as possible it doesn't choose the shortest path everytime.Other factors like Congestion Control(to avoid Traffic) are also taken care of
+>   by processor inside.
 >
 > - At the end it will reach to the Key Router of LAN2 from that it will pass to the LAN2 (device).
 
@@ -146,18 +146,18 @@ Checkout [here](https://www.infrapedia.com/app)
 
 > - Communication of LANs over a internet and Special WAN is a Whole Different Thing.
 >
-> - Internet is Public Network and can be used by anyone, anywhere and anytime.This public network can have Security Related Problems in information Transferred 
-> Between different Location. Hackers are everywhere in this Public Network too.
+> - Internet is Public Network and can be used by anyone, anywhere and anytime.This public network can have Security Related Problems in information Transferred
+>   Between different Location. Hackers are everywhere in this Public Network too.
 >
-> -- For Eg: Lets say you want to send one important file within the same office/LAN from one device to another then this process of sending file is secure operaion 
->    cause any outsider cannot access your network without your permission in general.
+> -- For Eg: Lets say you want to send one important file within the same office/LAN from one device to another then this process of sending file is secure operaion
+> cause any outsider cannot access your network without your permission in general.
 >
 > -- But now lets say you want to send that important file to other office device over the internet.This isn't safe cause there is no gaurantee that anyone can't see
->     your file or make changes to your file. Hackers are everywhere and there is high chances of this problem.so solution for this is to create the Special WAN for a company.
+> your file or make changes to your file. Hackers are everywhere and there is high chances of this problem.so solution for this is to create the Special WAN for a company.
 >
 > - In general Setting up WAN is costly and not a easy task but fortuanately there are various methods to setting up a WAN.
 >
-> - WAN by using VPN is most popular and cost effective. 
+> - WAN by using VPN is most popular and cost effective.
 
 ### - Setting up WAN using Virtual Private Network(VPN)
 
@@ -170,27 +170,27 @@ Checkout [here](https://www.infrapedia.com/app)
 >
 > - Tunneling Technology Makes the packet acts as if it is going through a physical tunnel.
 >
-> - Tunneling just represent high security connection between two different LANs. 
+> - Tunneling just represent high security connection between two different LANs.
 >
-> - When packet is send over the internet offcourse it will pass through many routers to reach its destination as learned before but Tunneling makes it impossible 
-> to interfere with this packet from outside hence security is maximum.
+> - When packet is send over the internet offcourse it will pass through many routers to reach its destination as learned before but Tunneling makes it impossible
+>   to interfere with this packet from outside hence security is maximum.
 
 ### - Deeper Look at WAN using VPN
 
 > - So lets say we want to send file from one LAN to Other.When Packet reaches the Router of same LAN from where it send their will be some changes in file.but before
-> that we should note and know that Tunneling is set up between Routers of Two Different LANs and this is called Site to Site VPN.It is very popular while setting up 
-> WANs using VPN.
+>   that we should note and know that Tunneling is set up between Routers of Two Different LANs and this is called Site to Site VPN.It is very popular while setting up
+>   WANs using VPN.
 >
 > - So lets use analogy for understanding this.so Say you want to send a letter from LAN1 to LAN2 for that letter will be carried by postman.
->  but what if you don't put that letter in envelope than postman can read this right? if We put that letter in envelope chances of reading it are less but still 
->  their is no guarantee he can't cause he can open and read it.
+>   but what if you don't put that letter in envelope than postman can read this right? if We put that letter in envelope chances of reading it are less but still
+>   their is no guarantee he can't cause he can open and read it.
 >
 > - In same way in real Scenario Packet are put inside the another packet but as got it from above their are still risk of Security.
 >
 > - Hence,Even though we have Increased the Security their is still risk.And this is where Encryption come into play.
 >
 > - Encryption is very important so what we do is First we encrypt the packet and then put it into another packet.Thus even if someone in between interferes they
-> won't understand the packet information.
+>   won't understand the packet information.
 >
 > - We Encrypt the information in such a way that only the people working in same company will understand.
 >
@@ -198,14 +198,41 @@ Checkout [here](https://www.infrapedia.com/app)
 >
 > - Tunneling is Special Encapsulation Method and the word Tunneling came because the packet is safe as if it moves from its physical/Private Tunnel.
 >
-> - So When the Packet Reaches at Router of Destination LAN first it eliminates the outer packet then it decrpyts the original packet and 
->  then it learns the destination and sends it to destination.
+> - So When the Packet Reaches at Router of Destination LAN first it eliminates the outer packet then it decrpyts the original packet and
+>   then it learns the destination and sends it to destination.
 >
-> -  There is no such 100% security.every system has vulnerability. but till now WAN networks using VPN are satisfactory in terms of budget as well as security.
+> - There is no such 100% security.every system has vulnerability. but till now WAN networks using VPN are satisfactory in terms of budget as well as security.
 
 ## End to end Encryption
 
 > - So the question is We use Internet daily we send mails,Purchase goods from E-commerce through credit card.Is it Insecure? answer is Yes and No.
-> End to end Encryption allows us to be safe from malicious. Only receiver can decrypt that packet.Thus it provides Security.
+>   End to end Encryption allows us to be safe from malicious. Only receiver can decrypt that packet.Thus it provides Security.
 >
 > Eg: Whatsapp
+
+## Few Real World use Case of Network Devices:
+
+> - Lets say Two Office belonging to same company are 100m(short distance) far from each other and we want these two offices as they are in same environment/network.
+>   How can we do that?
+>
+> - Can We Connect Both LANs Switch with cables? Yes offcourse as the distance is short we can connect and make these devices of two offices communicate with each other.
+>
+> - Thus,We can create Single LAN by connecting 2 switches together.
+>
+> - These types of LAN is called Campus Area Network(CAN) Cause such special type of LAN are used in University Campuses.
+>
+> -On the other hand we can also connect these offices using WAN with VPN.
+
+### - Which is more Secure LAN or WAN?
+
+> - LAN is more Secure cause no one can interfere from outside without permission and packet never passes over public network while in WAN even though
+>   the packet uses Tunneling and has Encryption there is no guarantee cause there is nothing like 100% Security.
+
+> - Thus Both are Secure but LAN is more Secure.
+
+> There is a condition that WAN is almost secure as WAN its called Private WAN.In these we request(purchase) the Line between two offices from the ISP with special amount.
+> ISP gives the private line which only your company can use.Generally its very costly and average company should use Public WAN.
+
+## What is Internet Service Provider (ISP)
+
+> - ISP is responsible for Tranmission of packet from one location to another. We can think as ISP is the mechanism that controls all these routers in Internet Stucture.
