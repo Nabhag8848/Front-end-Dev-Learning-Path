@@ -1,0 +1,43 @@
+<!-- there's a better way to apply CSS.At the top of your code, create a style block: you can Sytle all similar elements(Say all h2) at one go.
+<style>
+    CSS selector{
+        property:value;
+    }
+</style> -->
+
+<html>
+  <head>
+    <title>Nabhag Front-end Journey</title>
+    <h2>Nabhag's Front-end</h2> <!-- style = "color:brown;" Inline CSS,We can change color of element By changing the color style property -->
+    <img src="../img/Nabhag.jpeg" alt="MyProfile" />
+    <h2 class = "Brown">Coding is Fun!</h2>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link rel = "stylesheet" href = "Styles.css">
+  </head>
+
+  <body>
+    <main>
+      <p>Connect with me:<a href="https://bio.link/nabhag8848">LinkTree</a></p>
+
+      <div>
+        <p>Things I Love:</p>
+        <ul>
+          <li>Coding</li>
+          <li>Collaboration</li>
+          <li>Twitter Space</li>
+        </ul>
+      </div>
+    </main>
+
+    <form id = "Formstyle" action="">
+      <label> <input type="radio" name="socials" checked /> Twitter </label>
+      <label> <input type="radio" name="socials" /> Instagram </label><br />
+      <label> <input type="checkbox" name="Freetime" checked /> Travel </label>
+      <label> <input type="checkbox" name="Freetime" checked /> Food </label
+      ><br />
+
+      <input type="text" placeholder="Have a Nice Day!!" required />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
