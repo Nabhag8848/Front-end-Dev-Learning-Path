@@ -1,0 +1,92 @@
+.BoxModel{
+    border-color:black;
+    border-width: 3px;
+    border-style: solid;
+    height:800px;
+    width:1000px;
+    margin:130px 0px 0px 450px;
+    background-color: orange;
+    text-align: center;
+}
+
+.Borderedge{
+    border-color:black;
+    border-width: 3px;
+    border-style: solid;
+    margin-top:60px;
+    margin-left:100px;
+    margin-right:100px;
+    height:600px;
+    background-color: burlywood;
+}
+
+.Paddingedge{
+    
+    border-color:black;
+    border-width: 3px;
+    border-style: solid;
+    margin-top:60px;
+    margin-left:100px;
+    margin-right:100px;
+    height:400px;
+    background-color: yellowgreen;
+}
+
+.Contentedge{
+    
+    border-color:black;
+    border-width: 3px;
+    border-style: solid;
+    margin-top:60px;
+    margin-left:100px;
+    margin-right:100px;
+    height:200px;
+    background-color: aliceblue;
+}
+
+
+/*Three important properties control the space that surrounds each HTML element: padding, border, and margin.*/
+/* An element's padding controls the amount of space between the element's content and its border.*/
+/* An element's margin controls the amount of space between an element's border and surrounding elements. */
+/* If you set an element's margin to a negative value, the element will grow larger. */
+/* Sometimes you will want to customize an element so that it has different amounts of padding/Margin on each of its sides.
+CSS allows you to control the padding of all four individual sides of an element with the padding-top, padding-right, padding-bottom,
+ and padding-left properties same with margin.
+ Instead of specifying an element's top right bottom left padding/margin properties individually, you can specify them
+  all in one line, like this:
+
+padding: 10px 20px 10px 20px; Same with margin
+*/
+
+.injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+    margin-top:100px;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 40px 20px 40px 20px;
+    margin:40px 20px 40px 20px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 40px 20px 40px 20px;
+    margin:40px 20px 40px 20px;
+  }
+
