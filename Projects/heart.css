@@ -1,0 +1,75 @@
+body{
+    background-color:honeydew;
+    animation-name:backcolor;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+.heart{
+    position:absolute;
+    top:33.3%;
+    left:40%;
+    background-color: #fb0606;
+    height:300px;
+    width:300px;
+    transform:rotate(-45deg);
+    box-shadow: 0px 5px 80px 0px black;
+    animation-name:size;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+
+.heart::before{
+    content:"";
+    position:absolute;
+    background-color:red;
+    height:300px;
+    width:300px;
+    bottom:150px;
+    border-radius:50%;
+}
+.heart::after{
+    content:"";
+    position:absolute;
+    background-color:red;
+    height:300px;
+    width:300px;
+    left:150px;
+    border-radius:50%;
+}
+@keyframes size {
+    0%{
+        transform:scale(1) rotate(-45deg);
+    }
+    25%{
+        transform:scale(0.8) rotate(-50deg);
+        box-shadow: 0px 5px 80px 100px lightgoldenrodyellow;
+    }
+    50%{
+        transform:scale(0.7) rotate(-40deg);
+        box-shadow: 0px 5px 80px 50px palegoldenrod;
+    }
+    75%{
+        transform:scale(0.8) rotate(-50deg);
+        box-shadow: 0px 5px 80px 0px darkorchid;
+    }
+    100%{
+        transform:scale(1) rotate(-45deg);
+    }
+}
+
+@keyframes backcolor {
+    25%{
+        background-color: #ea7fb7;
+
+    }
+    50%{
+        background-color: #a9778c;
+    }
+    75%{
+        background-color: pink;
+    }
+    100%{
+        background-color: honeydew;
+    }
+
+}
