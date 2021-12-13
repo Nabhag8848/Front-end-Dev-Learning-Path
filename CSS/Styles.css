@@ -21,7 +21,7 @@ h2 {
     font-family:Lobster monospace; 
     /* You can set which font an element should use, by using the font-family property. */
     /*When one font isn't available, you can tell the browser to "degrade" to another font.
-    font-family:Helvetica sans-serif;*/
+    font-family:Helvetica sands-serif;*/
 }
 
 /*Import Google fonts*/
@@ -30,11 +30,15 @@ we'll import the Lobster font. To do this write the following in html.(before th
 /* <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">  Now we can use Lobster*/
 
 img {
-     width: 400px;/* CSS has a property called width that controls an element's width. Just like with fonts, we'll use px (pixels) to specify the image's width. */
-     border-color:black;
-     border-width: 5px;
-     border-style:solid;
-     border-radius:50%;
+    position:relative;
+    left:1100px;
+    top:80px;
+    width: 400px;/* CSS has a property called width that controls an element's width. Just like with fonts, we'll use px (pixels) to specify the image's width. */
+    border-color:black;
+    border-width: 5px;
+    border-style:solid;
+    border-radius:50%;
+
 }
 
 
@@ -60,3 +64,4 @@ id attributes should be unique
 #Formstyle{
     font-size:20px;
 }
+
